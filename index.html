@@ -1116,6 +1116,34 @@
     </div>
     <div class="footer-container"></div>
   </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const images = document.querySelectorAll('.image');
+
+  function checkVisibility() {
+    const windowHeight = window.innerHeight;
+    
+    images.forEach(image => {
+      const imageTop = image.getBoundingClientRect().top;
+      if (imageTop < windowHeight - 100) { // Trigger transition when image is 100px from viewport bottom
+        image.style.opacity = '1';
+        image.style.transform = 'scale(1)';
+      } else {
+        image.style.opacity = '0';
+        image.style.transform = 'scale(0.9)';
+      }
+    });
+  }
+
+  // Initial check
+  checkVisibility();
+
+  // Check visibility on scroll
+  window.addEventListener('scroll', checkVisibility);
+});
+</script>
+
 </body>
 
 </html>
