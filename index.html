@@ -1352,7 +1352,31 @@
 <!--     </div> -->
 
 <!--   </div> -->
-   <footer>
+  
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+      const elements = document.querySelectorAll('.transition-element');
+      const options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+      };
+
+      const callback = (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      };
+
+      const observer = new IntersectionObserver(callback, options);
+      elements.forEach(element => observer.observe(element));
+    });
+</script>
+
+</body>
+             <footer>
     <div class="footer-content">
       <h2>Contact Fun Expo</h2>
       <div class="contact-item">
@@ -1397,28 +1421,5 @@
       </nav>
     </div>
   </footer>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-      const elements = document.querySelectorAll('.transition-element');
-      const options = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
-      };
-
-      const callback = (entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
-          }
-        });
-      };
-
-      const observer = new IntersectionObserver(callback, options);
-      elements.forEach(element => observer.observe(element));
-    });
-</script>
-
-</body>
 
 </html>
