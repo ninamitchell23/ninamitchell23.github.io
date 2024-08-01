@@ -2,10 +2,9 @@
 <html>
 
 <head>
-  <title>ShareCare</title>
+  <title>Project Title</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet"
-    type="text/css" />
+  <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
@@ -16,126 +15,30 @@
   <script src="js/menu.js"></script>
   <script src="js/footer.js"></script>
   <style>
-    .transition-element {
-      opacity: 0;
-      transform: scale(0.95);
-      transition: opacity 1s ease, transform 1s ease;
-    }
-
-    .transition-element.visible {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    /* Styles for feature containers */
-    .feature-container {
-      flex: 1;
-      min-width: 120px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background-color: #009D94;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-    }
-
-    .feature-container:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      background-color: #007B7A;
-    }
-
-
-    footer {
-      background-image: url('img/Footerbacground.jpg');
-      background-size: cover;
-
-      background-repeat: no-repeat;
-      /*       padding: 20px 0; */
-      bottom: 0;
-      width: 100%;
-      background-color: #3366cc;
-      color: white;
-    }
-
-    .footer-content {
-      max-width: 1200px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    .contact-item {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 10px 0;
-    }
-
-    .contact-item img,
-    .social-icon img {
-      width: 20px;
-      height: 20px;
-      margin-right: 10px;
-    }
-
-    .social-icons {
-      display: flex;
-      justify-content: center;
-      margin: 20px 0;
-    }
-
-    .social-icon {
-      display: flex;
-      align-items: center;
-      margin: 0 10px;
-    }
-
-    form {
-      margin: 20px 0;
-    }
-
-    input[type="email"] {
-      padding: 10px;
-      width: 200px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    nav {
-      margin-top: 20px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
     }
   </style>
 </head>
 
 <body>
-  <div class="menu-container"
-    style=" position: absolute; top: 0; left: 0; width: 100%; background-color: transparent; border: none;box-shadow: none;">
-  </div>
+  <div class="menu-container"></div>
   <div class="content-container">
     <!-------------------------------------------------------------------------------------------->
     <!--Start Header-->
-    <div class="banner"
-      style="position: relative;background: url('img/givinghands.jpg'); no-repeat center; background-size: cover; height: 400px;">
-    </div>
+    <div class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 300px;"></div>
     <div class="banner">
       <div class="banner-table flex-column">
-        <div class="flex-row" style="background-color: #009D94">
+        <div class="flex-row">
           <div class="flex-item flex-column">
-            <h1 class="add-top-margin-small">More Than Food,More Than Hope</h1>
+            <h2 class="add-top-margin-small">This is the header area</h2>
             <p class="text">
-              "We have made it possible for you and me to make a difference by bridging the gap between
-              those with open hearts and those who are in need."
+              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+              condimentum rhoncus, <a href="javascript:void(0)">sem quam semper libero</a>, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
+              vel, luctus pulvinar, hendrerit id, lorem.
             </p>
           </div>
         </div>
@@ -147,235 +50,70 @@
       <div class="content-table flex-column">
         <!-------------------------------------------------------------------------------------------->
         <!--Start Intro-->
-        <div class="flex-row transition-element">
-          <div class="flex-item flex-column transition-element">
-            <img class="image transition-element" src="img/0asiquof.png" style="height: 270px;width:430px" </div>
-
-            <div class="flex-item flex-column">
-              <p class="text text-large">
-                "Our mission is to connect generous donors with Ugandans in need to provide essential
-                items, foster hope for a brighter future and reduce resource wastage."
-              </p>
-            </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <img class="image" src="img/dummay-img.png">
           </div>
-          <div class="flex-row">
-            <div class="flex-item flex-column">
-              <!--             <p class="text add-top-margin"> -->
-              <!--               "Our mission is to connect generous donors with Ugandans in need to provide essential items, foster hope for a brighter future and reduce resource wastage." -->
-              </p>
-
-              <div class="flex-row transition-element">
-                <div class="flex-item flex-column transition-element">
-                  <img class="transition-element" src="img/Hope.png" style="height: 270px;width:430px">
-                </div>
-                <div class="flex-item flex-column transition-element">
-                  <p class="text text-large">
-                    Our app enables you to easily donate food, clothing, and supplies to Ugandans in
-                    need, making a significant difference in their lives every day.
-                  </p>
-                </div>
-              </div>
-              <div class="flex-row">
-                <div class="flex-item flex-column">
-                  <p class="text add-top-margin">
-                    <!--                Our app enables you to easily donate food, clothing, and supplies to Ugandans in need, making a significant difference in their lives every day. -->
-                  </p>
-                  <h3 class="transition-element">Key Features of ShareCare App</h3>
-                  <div style="
-                            display: flex; 
-                            justify-content: space-between; 
-                            flex-wrap: wrap; 
-                            gap: 10px; /* Space between containers */
-                            padding: 10px;
-                            box-sizing: border-box;
-                            ">
-                    <div class="feature-container transition-element">
-                      <p>User Registration and Profiles</p>
-                    </div>
-                    <div class="feature-container transition-element">
-                      <p>Various Donation Categories</p>
-                    </div>
-                    <div class="feature-container transition-element">
-                      <p>Real-time tracking of donated items</p>
-                    </div>
-                    <div class="feature-container transition-element">
-                      <p>Pickup and delivery of donated items</p>
-                    </div>
-                    <div class="feature-container transition-element">
-                      <p>Payment gateways for fund donations</p>
-                    </div>
-                  </div>
-
-                </div>
-
-
-                <!--             <ul>
-                                <li><a >User Registration and Profiles</a></li>
-                                <li><a>Various Donation Categories</a></li>
-                                <li><a>Easy Donation Process</a></li>
-                                <li><a>Real-time Tracking of donation items</a></li>
-                                <li><a>Notifications</a></li>
-                                <li><a>Pick-up and Delivery</a></li>
-                                <li><a>Payment Options</a></li> -->
-                <!--               <li><a href="#iframe">Iframe</a></li>
-                                <li><a href="#list-of-projects">List of Projects</a></li>
-                                <li><a href="#gallery">Gallery (responsive size)</a></li>
-                                <li><a href="#masonry">Masonry (responsive size)</a></li>
-                                <li><a href="#survey">Survey</a></li> -->
-                </ul>
-              </div>
-            </div>
-            <!--End Intro-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start Text Only-->
-            <div class="flex-row">
-              <div class="flex-item flex-column">
-                <h2 id="text-only">How It Works</h2>
-                <hr>
-                <p class="text">
-                  Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
-                  Por scientie, musica,
-                  sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li
-                  grammatica, li pronunciation e
-                  li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On
-                  refusa continuar payar
-                  custosi traductores. At solmen va esser.
-                </p>
-                <p class="text">
-                  Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                  molestiae consequatur,
-                  vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et
-                  accusamus et iusto odio dignissimos
-                  ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
-                  et quas molestias
-                  excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-                  officia deserunt mollitia
-                  animi, id est laborum et dolorum fuga.
-                </p>
-
-                <!-- Beneficiary Section -->
-                <div style="
-                                padding: 20px; 
-                                background-color: #f0f0f0; 
-                                text-align: center;
-                            ">
-                  <h2 class="transition-element">How People Have Benefited from ShareCare</h2>
-                  <div style="
-                                display: flex; 
-                                flex-wrap: wrap; 
-                                justify-content: center; 
-                                gap: 20px; /* Space between items */
-                                padding: 10px;
-                                ">
-                    <!-- Beneficiary 1 -->
-                    <div style="
-                                flex: 1; 
-                                max-width: 250px; 
-                                padding: 10px; 
-                                background-color: #fff; 
-                                border: 1px solid #ddd; 
-                                border-radius: 8px; 
-                                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                                text-align: center;
-                            ">
-                      <img src="img/person1.jpg" alt="Person 1" style="
-                                width: 100%; 
-                                height: auto; 
-                                border-radius: 50%; /* Circular image */
-                                margin-bottom: 10px;
-                                ">
-                      <p><strong>Jane Doe</strong></p>
-                      <p style="
-                                position: relative; 
-                                padding: 10px;
-                                font-style: italic; 
-                                color: #333;
-                                ">
-                        <span style="
-                                position: absolute; 
-                                left: -20px; 
-                                top: 0; 
-                                font-size: 2em; 
-                                color: #009D94;
-                            ">“</span>
-                        Jane benefited by receiving essential groceries through ShareCare, which
-                        helped her manage her family’s needs during tough times.
-                        <span style="
-                                position: absolute; 
-                                right: -20px; 
-                                bottom: 0; 
-                                font-size: 2em; 
-                                color: #009D94;
-                            ">”</span>
-                      </p>
-                    </div>
-
-                    <!-- Beneficiary 2 -->
-                    <div style="
-                            flex: 1; 
-                            max-width: 250px; 
-                            padding: 10px; 
-                            background-color: #fff; 
-                            border: 1px solid #ddd; 
-                            border-radius: 8px; 
-                            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                            text-align: center;
-                        ">
-                      <img src="img/person2.jpg" alt="Person 2" style="
-          
-                                            <p><strong>John Smith</strong></p>
-                                            <p style=" position: relative; padding: 10px; font-style: italic; color:
-                        #333; ">
-                                                <span style=" position: absolute; left: -20px; top: 0; font-size: 2em;
-                        color: #009D94; ">“</span>
-                                                                    John was able to donate his unused items through ShareCare, making a
-                                                positive impact on his community.
-                                                <span style=" position: absolute; right: -20px; bottom: 0; font-size:
-                        2em; color: #009D94; ">”</span>
-                                            </p>
-                                        </div>
-
-                                        <!-- Beneficiary 3 -->
-                                        <div style=" flex: 1; max-width: 250px; padding: 10px; background-color: #fff;
-                        border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align:
-                        center; ">
-                                            <img src=" img/person3.jpg" alt="Person 3" style="
-                                    width: 100%; 
-                                    height: auto; 
-                                    border-radius: 50%; 
-                                    margin-bottom: 10px;
-                                    ">
-                      <p><strong>Emily Johnson</strong></p>
-                      <p style="
-                                    position: relative; 
-                                    padding: 10px;
-                                    font-style: italic; 
-                                    color: #333;
-                                    ">
-                        <span style="
-                                    position: absolute; 
-                                    left: -20px; 
-                                    top: 0; 
-                                    font-size: 2em; 
-                                    color: #009D94;
-                                ">“</span>
-                        Emily's experience with ShareCare allowed her to access critical
-                        supplies quickly, benefiting her family immensely.
-                        <span style="
-                                    position: absolute; 
-                                    right: -20px; 
-                                    bottom: 0; 
-                                    font-size: 2em; 
-                                    color: #009D94;
-                                ">”</span>
-                      </p>
-                    </div>
-
-                  </div>
-                </div>
-
-
-                <!--             <h3>Break Long URL</h3>
+          <div class="flex-item flex-column">
+            <p class="text text-large">
+              <a target="_blank" href="javascript:void(0)">Author 1</a>, author1 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Author 2</a>, author2 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Author 3</a>, author3 (at) cs.cmu.edu<br>
+              <a target="_blank" href="javascript:void(0)">Laboratory</a><br>
+              <a target="_blank" href="javascript:void(0)">Institute</a><br>
+              <a target="_blank" href="javascript:void(0)">Organization</a><br>
+              <a target="_blank" href="javascript:void(0)">Street Address</a><br>
+              <a target="_blank" href="javascript:void(0)">City, State, Country</a>
+            </p>
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text add-top-margin">
+              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
+              condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
+              vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae
+              sapien ut libero venenatis faucibus. Nullam quis ante.
+            </p>
+            <h3>Table of Content</h3>
+            <ul>
+              <li><a href="#text-only">Text Only</a></li>
+              <li><a href="#buttons-and-inputs">Buttons and Inputs</a></li>
+              <li><a href="#images-and-image-button">Images and Image Button</a></li>
+              <li><a href="#text-around-image">Text around Image</a></li>
+              <li><a href="#centered-image-and-table">Centered Image and Table</a></li>
+              <li><a href="#adaptive-image">Adaptive Image</a></li>
+              <li><a href="#text-with-images-and-videos">Text with Images and Videos</a></li>
+              <li><a href="#iframe">Iframe</a></li>
+              <li><a href="#list-of-projects">List of Projects</a></li>
+              <li><a href="#gallery">Gallery (responsive size)</a></li>
+              <li><a href="#masonry">Masonry (responsive size)</a></li>
+              <li><a href="#survey">Survey</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--End Intro-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text Only-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="text-only">Text Only</h2>
+            <hr>
+            <p class="text">
+              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
+              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
+              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
+              custosi traductores. At solmen va esser.
+            </p>
+            <p class="text">
+              Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
+              vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos
+              ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
+              excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia
+              animi, id est laborum et dolorum fuga.
+            </p>
+            <h3>Break Long URL</h3>
             <p class="text">
               <a class="break-long-url" target="_blank" href="https://www.google.com/maps/place/Carnegie+Mellon+University/@40.4430576,-79.9431263,17z/data=!4m5!3m4!1s0x8834f21f58679a9f:0x88716b461fc4daf4!8m2!3d40.4428753!4d-79.9430922">https://www.google.com/maps/place/Carnegie+Mellon+University/@40.4430576,-79.9431263,17z/data=!4m5!3m4!1s0x8834f21f58679a9f:0x88716b461fc4daf4!8m2!3d40.4428753!4d-79.9430922</a>
             </p>
@@ -385,8 +123,8 @@
               augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
               condimentum rhoncus, sem quam semper libero, <a target="_blank" href="javascript:void(0)">sit amet adipiscing sem neque</a> sed ipsum. Nam quam nunc, blandit
               vel, luctus pulvinar, hendrerit id, lorem.
-            </p> -->
-                <!--             <ul>
+            </p>
+            <ul>
               <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
               <li>Aenean commodo ligula eget dolor.
                 <ul>
@@ -396,8 +134,8 @@
                       <li>Li nov <a target="_blank" href="javascript:void(0)">lingua franca</a>.</li>
                       <li>It va esser Occidental.</li>
                       <li>Existent Europan lingues.</li>
-                    </ul> -->
-                <!--                   </li>
+                    </ul>
+                  </li>
                   <li>Nullam dictum felis eu pede mollis pretium.</li>
                 </ul>
               </li>
@@ -414,8 +152,8 @@
               <li>Aenean commodo ligula eget dolor.
                 <ol class="nested">
                   <li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</li>
-                  <li>In enim justo, <a target="_blank" href="javascript:void(0)">rhoncus ut, imperdiet a</a>, venenatis vitae, justo. -->
-                <!--                     <ol class="nested">
+                  <li>In enim justo, <a target="_blank" href="javascript:void(0)">rhoncus ut, imperdiet a</a>, venenatis vitae, justo.
+                    <ol class="nested">
                       <li>Li nov lingua franca.</li>
                       <li>It va esser Occidental.</li>
                       <li>Existent Europan lingues.</li>
@@ -432,8 +170,8 @@
                 <p class="text-small-margin">
                   Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
                   augue. Curabitur ullamcorper ultricies nisi.
-                </p> -->
-                <!--               </li>
+                </p>
+              </li>
               <li>
                 <p class="text-small-margin">
                   Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
@@ -449,8 +187,8 @@
               </li>
             </ol>
             <h3>Math Equations</h3>
-            <p class="text"> -->
-                <!--               Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
+            <p class="text">
+              Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del
               coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
             </p>
             <img class="image center" src="https://latex.codecogs.com/svg.latex?C\cdot(3\sin\theta_1+3\sin\theta_2-\cos\theta_1-\cos\theta_2)" style="max-width: 300px;">
@@ -459,11 +197,11 @@
               coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
             </p>
           </div>
-        </div> -->
-                <!--End Text Only-->
-                <!-------------------------------------------------------------------------------------------->
-                <!--Start Text with Buttons-->
-                <!--         <div class="flex-row">
+        </div>
+        <!--End Text Only-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Buttons-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="buttons-and-inputs">Buttons and Inputs</h2>
             <hr>
@@ -549,13 +287,12 @@
               simplificat Angles, quam un skeptic Cambridge amico dit me.
             </p>
           </div>
-        </div> -->
-                <div class="flex-row-space-between">
-                  <div class="flex-item flex-column">
-                    <p class="text badge-text">Interested in volunteering or partnering with
-                      us?!</p>
-                  </div>
-                  <!--           <div class="flex-item flex-column">
+        </div>
+        <div class="flex-row-space-between">
+          <div class="flex-item flex-column">
+            <p class="text badge-text">Large Badge Caption!</p>
+          </div>
+          <div class="flex-item flex-column">
             <div class="control-group">
               <a href="javascript:void(0)" target="_blank" class="custom-image-button">
                 <img src="img/app-store-badge.png" width="150">
@@ -564,18 +301,17 @@
                 <img src="img/google-play-badge.png" width="150">
               </a>
             </div>
-          </div> -->
-                </div>
-                <div class="flex-row">
-                  <div class="flex-item flex-column">
-                    <p class="text">
-                      Click the button below to download the ShareCare App and GET
-                      STARTED.
-                    </p>
-                    <button class="custom-button-flat pulse-black" style=background-color:#009D94><img
-                        src="img/home.png"><span>DOWNLOAD</span></button>
-                    <br></br>
-                    <!--             <div class="control-group">
+          </div>
+        </div>
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <p class="text">
+              Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica,
+              sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e
+              li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar
+              custosi traductores. At solmen va esser.
+            </p>
+            <div class="control-group">
               <input class="custom-textbox stretch-on-mobile" type="text" placeholder="e.g., 15213">
               <textarea class="custom-textbox stretch-on-mobile" placeholder="e.g., 15213"></textarea>
             </div>
@@ -588,13 +324,13 @@
               coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
               It va esser tam simplic quam Occidental in fact, it va esser Occidental. A un Angleso it va semblar un
               simplificat Angles, quam un skeptic Cambridge amico dit me.
-            </p> -->
-                  </div>
-                </div>
-                <!--End Text with Buttons-->
-                <!-------------------------------------------------------------------------------------------->
-                <!--Start Text with Images and Image buttons-->
-                <!--         <div class="flex-row">
+            </p>
+          </div>
+        </div>
+        <!--End Text with Buttons-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Images and Image buttons-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="images-and-image-button">Images and Image Button</h2>
             <hr>
@@ -629,9 +365,9 @@
           </div>
         </div>
         <!--End Text with Images and Image buttons-->
-                <!-------------------------------------------------------------------------------------------->
-                <!--Start Text around Image-->
-                <!--         <div class="flex-row">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text around Image-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="text-around-image">Text around Image</h2>
             <hr>
@@ -652,32 +388,30 @@
               impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis.
             </p>
           </div>
-        </div> -->
-                <!--End Text around Image-->
-                <!-------------------------------------------------------------------------------------------->
-              </div>
-            </div>
-            <div class="banner"
-              style="background: url('img/volunteers.jpg') no-repeat center; background-size: cover; height: 500px;">
-              <div class="banner-table flex-column" style="background-color: rgba(0, 0, 0, 0.5);">
-                <div class="flex-row">
-                  <div class="flex-item flex-column">
-                    <h2 class="add-top-margin-small">Come be part of us! Let us make a
-                      difference together.</h2>
-                    <p class="text">
-                      <!--               Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+        </div>
+        <!--End Text around Image-->
+        <!-------------------------------------------------------------------------------------------->
+      </div>
+    </div>
+    <div class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 500px;">
+      <div class="banner-table flex-column" style="background-color: rgba(0, 0, 0, 0.5);">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin-small">This is the banner area with photo</h2>
+            <p class="text">
+              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
               augue. Curabitur <a href="javascript:void(0)">ullamcorper ultricies nisi</a>. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus. -->
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="content">
-              <div class="content-table flex-column">
-                <!-------------------------------------------------------------------------------------------->
-                <!--Start Text with Centered Image and Table-->
-                <!--         <div class="flex-row">
+              condimentum rhoncus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Centered Image and Table-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="centered-image-and-table" class="no-top-margin">Centered Image and Table</h2>
             <hr>
@@ -884,11 +618,11 @@
               custosi traductores. At solmen va esser.
             </p>
           </div>
-        </div> -->
-                <!--End Text with Centered Image and Table-->
-                <!-------------------------------------------------------------------------------------------->
-                <!--Start Text with Adaptive Image-->
-                <!--         <div class="flex-row">
+        </div>
+        <!--End Text with Centered Image and Table-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Adaptive Image-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="adaptive-image">Adaptive Image</h2>
             <hr>
@@ -908,10 +642,10 @@
           </div>
         </div>
         <!--End Text with Adaptive Image-->
-                <!-------------------------------------------------------------------------------------------->
-              </div>
-            </div>
-            <!--     <div class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 500px;"></div>
+        <!-------------------------------------------------------------------------------------------->
+      </div>
+    </div>
+    <div class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 500px;"></div>
     <div class="banner">
       <div class="banner-table flex-column">
         <div class="flex-row">
@@ -925,12 +659,12 @@
           </div>
         </div>
       </div>
-    </div> -->
-            <!--     <div class="content">
-      <div class="content-table flex-column"> -->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start Text with Images and Videos-->
-            <!--         <div class="flex-row">
+    </div>
+    <div class="content">
+      <div class="content-table flex-column">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Images and Videos-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="text-with-images-and-videos" class="no-top-margin">Text with Images and Videos</h2>
             <hr>
@@ -1027,9 +761,9 @@
           </div>
         </div>
         <!--End Text with Images and Videos-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start Text with Iframe-->
-            <!--         <div class="flex-row">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Text with Iframe-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="iframe">Iframe</h2>
             <hr>
@@ -1047,11 +781,11 @@
               vel, luctus pulvinar, hendrerit id, lorem.
             </p>
           </div>
-        </div> --> -->
-            <!--END Text with Iframe-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start List of Projects-->
-            <!--         <div class="flex-row">
+        </div>
+        <!--END Text with Iframe-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start List of Projects-->
+        <div class="flex-row">
           <div class="flex-item flex-column full-width">
             <h2 id="list-of-projects">List of Projects</h2>
             <hr>
@@ -1095,11 +829,11 @@
               condimentum rhoncus, sem quam semper libero, sit amet.
             </p>
           </div>
-        </div> -->
-            <!--End List of Projects-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start Gallery-->
-            <!--         <div class="flex-row">
+        </div>
+        <!--End List of Projects-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Gallery-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="gallery">Gallery (responsive size)</h2>
             <hr>
@@ -1198,11 +932,11 @@
               vel, luctus pulvinar, hendrerit id, lorem.
             </p>
           </div>
-        </div> -->
-            <!--End Gallery-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start Masonry-->
-            <!--         <div class="flex-row">
+        </div>
+        <!--End Gallery-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Masonry-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="masonry">Masonry (responsive size)</h2>
             <hr>
@@ -1275,11 +1009,11 @@
               vel, luctus pulvinar, hendrerit id, lorem.
             </p>
           </div>
-        </div> -->
-            <!--End Masonry-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start Survey-->
-            <!--         <div class="flex-row">
+        </div>
+        <!--End Masonry-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Survey-->
+        <div class="flex-row">
           <div class="flex-item flex-column">
             <h2 id="survey">Survey</h2>
             <hr>
@@ -1343,93 +1077,23 @@
               vel, luctus pulvinar, hendrerit id, lorem.
             </p>
           </div>
-        </div> -->
-            <!--End Survey-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--Start Credits-->
-            <div class="flex-row">
-              <div class="flex-item flex-item-stretch flex-column">
-                <p class="text text-small text-italic add-top-margin-large">
-                  Credits: <span class="highlight-text">Organization One</span>: Author One
-                  and Author Two / <span class="highlight-text">Organization Two</span>:
-                  Author Three and Author Four
-                </p>
-              </div>
-            </div>
-            <!--End Credits-->
-            <!-------------------------------------------------------------------------------------------->
-            <!--       </div> -->
-            <!--     </div> -->
-
-            <!--   </div> -->
-
-            <script>
-              document.addEventListener('DOMContentLoaded', function () {
-                const elements = document.querySelectorAll('.transition-element');
-                const options = {
-                  root: null,
-                  rootMargin: '0px',
-                  threshold: 0.1
-                };
-
-                const callback = (entries, observer) => {
-                  entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                      entry.target.classList.add('visible');
-                    }
-                  });
-                };
-
-                const observer = new IntersectionObserver(callback, options);
-                elements.forEach(element => observer.observe(element));
-              });
-            </script>
-
-</body>
-<footer>
-  <div class="footer-content">
-    <h2>Contact Fun Expo</h2>
-    <div class="contact-item">
-      <img src="img/locate.png" alt="Location icon">
-      <span>Kampala</span>
-    </div>
-    <div class="contact-item">
-      <img src="img/phone.png" alt="Phone icon">
-      <span>+256750525513</span>
-    </div>
-    <div class="contact-item">
-      <img src="img/email.png" alt="Email icon">
-      <span>akothrosemary51@gmail.com</span>
-    </div>
-
-    <h3>Stay Connected</h3>
-    <div class="social-icons">
-      <div class="social-icon">
-        <img src="img/facebook.png" alt="Facebook icon">
-        <span>Facebook</span>
-      </div>
-      <div class="social-icon">
-        <img src="img/twitter.png" alt="Twitter icon">
-        <span>Twitter</span>
-      </div>
-      <div class="social-icon">
-        <img src="img/instagram.png" alt="Instagram icon">
-        <span>Instagram</span>
+        </div>
+        <!--End Survey-->
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Credits-->
+        <div class="flex-row">
+          <div class="flex-item flex-item-stretch flex-column">
+            <p class="text text-small text-italic add-top-margin-large">
+              Credits: <span class="highlight-text">Organization One</span>: Author One and Author Two / <span class="highlight-text">Organization Two</span>: Author Three and Author Four
+            </p>
+          </div>
+        </div>
+        <!--End Credits-->
+        <!-------------------------------------------------------------------------------------------->
       </div>
     </div>
-
-    <h3>Join Our Community</h3>
-    <p>Subscribe to our newsletter for updates and exclusive offers.</p>
-    <form>
-      <input type="email" placeholder="Enter your email">
-      <button type="submit">Subscribe</button>
-    </form>
-
-    <nav>
-      <h3>Legal</h3>
-      <a href="#">Privacy Policy</a> | <a href="#">Terms of service</a> | Copyright 2024 Fun Expo
-    </nav>
+    <div class="footer-container"></div>
   </div>
-</footer>
+</body>
 
 </html>
