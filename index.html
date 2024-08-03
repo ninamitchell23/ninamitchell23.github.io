@@ -14,17 +14,39 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/menu.js"></script>
   <script src="js/footer.js"></script>
-  <style>
-    .menu-index {
-       color: transparent !important; 
-      opacity: 0.2 !important;
-      font-weight: 700 !important;
-    }
-  </style>
+<style>
+        .menu-container,
+        .menu,
+        .menu * {
+            background-color: transparent !important;
+            border: none; /* Optional: remove borders if any */
+            color: inherit; /* Ensure text color inherits from parent or is set to desired color */
+        }
+
+        .flex-row-space-between {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex-row-center {
+            display: flex;
+            align-items: center;
+        }
+
+        .flex-item {
+            flex: 1;
+        }
+
+        .menu-index {
+            color: transparent !important; 
+            opacity: 0.2 !important;
+            font-weight: 700 !important;
+        }
+    </style>
 </head>
 
 <body>
-  <div class="menu-container" style="background-color:transparent"></div>
+  <div class="menu-container" style="background-color:transparent;"></div>
   <div class="content-container">
     <!-------------------------------------------------------------------------------------------->
     <!--Start Header-->
