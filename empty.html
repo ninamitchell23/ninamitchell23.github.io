@@ -30,26 +30,26 @@
         }
         .container {
             width: 100%;
-            height: 200px; /* Adjust height as needed */
+            height: 400px; /* Adjust height as needed */
             background-color: #009D94;
             position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .text-section {
+            width: 60%;
+            color: #fff;
         }
         .app-screen {
-            width: 300px; /* Adjust width as needed */
-            height: 400px; /* Adjust height as needed */
-            background-color: #ffffff;
-            border: 2px solid #007B72;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            position: absolute;
-            top: 50%;
-            right: 0;
-            transform: translateY(-50%);
-            overflow: hidden;
+            width: 40%;
+            max-width: 300px;
+            position: relative;
         }
         .app-screen img {
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: auto;
         }
   </style>
 </head>
@@ -58,16 +58,20 @@
   <div class="menu-container"></div>
   <div class="content-container">
     <div class="container">
-      <div class="app-screen">
-          <img src="path/to/your/app-screen-image.jpg" alt="App Screen">
+          <div class="text-section">
+              <h2>Home Page</h2>
+              <p>After onboarding screens, the home page will be displayed with all the main features of the application along with the notifications where updates and opportunities are informed to users. The Volunteer signup banner is also presented in the home page so that users interested do not miss out to get themselves enrolled in it.</p>
+          </div>
+          <div class="app-screen">
+              <img src="/mnt/data/image.png" alt="App Screen">
+          </div>
       </div>
-    </div>
     <br><br/>
-    <div class="container">
+<!--     <div class="container">
       <div class="app-screen">
             <img src="path/to/your/app-screen-image.jpg" alt="App Screen">
       </div>
-    </div>
+    </div> -->
   </div>
   <div class="footer-container"></div>
 </body>
